@@ -1,4 +1,4 @@
-name: "Build Android app with Expo"
+name: 'Build Android app with Expo'
 
 on:
   push:
@@ -27,8 +27,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Create Android Keystore
+        run: eas credentials --non-interactive
+        env:
+        EXPO_TOKEN: ${{ secrets.EXPO_TOKEN_EXPO }}
+
       - name: Build Android app
-        run: eas build --platform android --profile preview --non-interactive 
+        run: eas build --platform android --profile preview --non-interactive --no-wait
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN_EXPO }}
 
