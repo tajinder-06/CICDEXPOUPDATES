@@ -1,9 +1,10 @@
-name: preview
+name: Preview
+
 on: push
 
 jobs:
   build-and-update:
-     runs-on: macos-latest
+    runs-on: macos-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
