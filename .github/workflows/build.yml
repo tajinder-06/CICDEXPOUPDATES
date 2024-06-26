@@ -30,7 +30,7 @@ jobs:
       - name: Create Android Keystore
         run: eas credentials --non-interactive
         env:
-        EXPO_TOKEN: ${{ secrets.EXPO_TOKEN_EXPO }}
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN_EXPO }}
 
       - name: Build Android app
         run: eas build --platform android --profile preview --non-interactive --no-wait
