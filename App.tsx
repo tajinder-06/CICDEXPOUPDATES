@@ -87,8 +87,7 @@ function App(): React.JSX.Element {
             <DebugInstructions />
           </Section>
           <Section title="Learn More">
-            Read the docs to discover whswdwdwannjdeibifbvfbevbt to do
-            next:idfuufdfd
+            Read the docs to discover vfbevbt to do next:idfuufdfd
           </Section>
           <LearnMoreLinks />
         </View>
