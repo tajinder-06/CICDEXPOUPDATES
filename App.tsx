@@ -78,7 +78,7 @@ function App(): React.JSX.Element {
           }}>
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.tsx</Text> to change this
-            screen and then come back to see yodcbvhjur edits.
+            screen and then come back to see yodcbvhjur edits configuration.
           </Section>
           <Section title="See Your Changes">
             <ReloadInstructions />
