@@ -10,12 +10,14 @@
     },
     "preview": {
       "distribution": "internal",
-      "channel": "preview"
+      "channel": "preview",
+      "credentialsSource": "remote"
     },
     "production": {
       "channel": "production",
       "android": {
-        "buildType": "apk",
+        "buildType": "app-bundle",
+        "credentialsSource": "local",
         "gradleCommand": ":app:assembleRelease"
       }
     }
