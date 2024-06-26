@@ -16,7 +16,6 @@
       "channel": "production",
       "android": {
         "buildType": "apk",
-        "credentialsSource": "local",
         "gradleCommand": ":app:assembleRelease"
       }
     }
