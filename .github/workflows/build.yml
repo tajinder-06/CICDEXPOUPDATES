@@ -31,7 +31,7 @@ jobs:
         run: npm install
 
       - name: Authenticate with EAS
-        run: echo ${{ secrets.EXPO_TOKEN }} | eas login
+        run: echo ${{ secrets.EXPO_TOKEN }}
 
       - name: Create update
         run: eas update --auto --non-interactive
