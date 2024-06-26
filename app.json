@@ -1,4 +1,17 @@
 {
   "name": "CICDEXPOUPDATES",
-  "displayName": "CICDEXPOUPDATES"
+  "displayName": "CICDEXPOUPDATES",
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "0c69fbdd-504d-47ff-b94b-3801f764d1d8"
+      }
+    },
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/0c69fbdd-504d-47ff-b94b-3801f764d1d8"
+    },
+    "android": {},
+    "ios": {}
+  }
 }
