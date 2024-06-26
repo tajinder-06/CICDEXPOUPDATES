@@ -28,7 +28,7 @@ jobs:
         run: npm ci
 
       - name: Create Android Keystore
-        run: eas credentials --non-interactive
+        run: eas credentials
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN_EXPO }}
 
